@@ -1,4 +1,5 @@
 body {
+  
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,162 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.bg_gif{
+  padding-top: 200px;
+  background-image: url(https://i.pinimg.com/originals/31/95/1b/31951b3236e906b78b2723577538b6fa.gif);
+  background-size: cover;
+  background-position: top center;
+  height: 200px;
+  background-color: blue;
+}
+
+.wrapper{
+  justify-content: center;
+  display: flex;
+  background-color: black;
+  width: 100%;
+  height: 130px;
+  
+}
+
+.btn_wrapper{
+  
+  justify-content: space-around;
+  display: flex;
+  margin: 0 auto;
+  
+  height: 100px;
+  width: 80%;
+  background-color: white;
+}
+
+.inp{
+  font-size: 19px;
+  margin: auto;
+  width: 200px;
+  height: 35px;
+}
+
+.btn{
+
+  background-color: black;
+  color: white;
+  margin: auto;
+  width: 100px;
+  height: 35px;
+  transition-duration: .2;
+}
+
+.btn:active{
+  
+  background-color: white;
+  color: black;
+  
+}
+
+.logo{
+  
+  margin-top: 15px;
+  margin-left: 50px;
+  background-image: url(./img/audi-sport-logo.png);
+  background-size: cover;
+  background-position: center center;
+  width: 220px;
+  height: 100px;
+}
+
+.catalog{
+  margin: 0 auto;
+  width: 1200px;
+  
+  flex-wrap: wrap;
+  display: flex;
+  gap: 50px;
+  margin-top: 130px;
+}
+
+.car-card{
+  height: 300px;
+  flex: 1 1 calc(25% - 16px);
+  
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.for_color{
+  width: 200px;
+  margin: 0 auto;
+  display: flex;
+  
+}
+
+.for_color p{
+  margin: 0 auto;
+}
+
+.block_color{
+  
+  width: 20px;
+  height: 20px;
+}
+
+.img_car{
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 10px;
+  height: 120px;
+  width: 200px;
+  background-image: url(./img/logo2.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.foot{
+  justify-content: space-around;
+  gap: 20px;
+  display: flex;
+  margin-top: 50px;
+  width: 100%;
+  background-color: black;
+  height: 200px;
+}
+
+.f_block{
+  margin: auto;
+  
+  height: 120px;
+  width: 300px;
+}
+
+.f_block li{
+  font-size: 16px;
+  color: white;
+}
+
+.logo_f{
+  margin: auto;
+  
+  width: 50px;
+  height: 50px;
+  
+  background-size: cover;
+  background-position: center center;
+  transition-duration: .3s;
+}
+.logo_f:hover{
+  width: 55px;
+  height: 55px;
+
+}
+
+#inst{
+  margin-top: 10px;
+  background-image: url(./img/Instagram_logo.png);
+}
+
+#fb{
+  background-image: url(./img/fb.png);
 }
