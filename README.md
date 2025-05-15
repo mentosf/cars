@@ -24,17 +24,17 @@ Main possibilities was interpreted here.
 The navigation filter on website is `Search pannel`
 
 ![Website](search.png)
-
-
-
-Available possibilities:
-1. Adding new task
-2. Delete task
-3. Search task
+You can:
+* Search by brand
+* Search by year
+* Search by color
+* See all cars in catalog
    
-### `all website was written on react-router-dom modul `
+### `most of website was written on react-router-dom modul `
 
-
+<p align="center">
+  <img src="audi.gif" alt="Demo GIF" width="500"/>
+</p>
 
 
 ### `How to use`:
